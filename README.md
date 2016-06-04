@@ -1,7 +1,7 @@
 # docker
 Brings up vagrant sandbox with docker and sample docker hello world instance tagged helloworld
 
-Requirements: vagrant
+Requirements: vagrant, virtualbox
 
 Vagrant UP!
 
@@ -14,4 +14,3 @@ To see output of running container:
 docker logs helloworld
 To enter container:
 docker exec -it helloworld /bin/bash
-To see output of current running job:
